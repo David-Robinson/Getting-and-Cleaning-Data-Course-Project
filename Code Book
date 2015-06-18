@@ -98,7 +98,6 @@ institutions for its use or misuse. Any commercial use is prohibited.
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
-
 Variables:
 
 The variables selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ 
@@ -162,7 +161,6 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
-
 
 Work performed to clean up the data:
 
