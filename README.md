@@ -30,46 +30,46 @@ Specifics:
 
      - X_train and X_test sets are merged into X_merge data set
 
-    subject_train and subject_test sets are merged into subj_merge data set
+     - subject_train and subject_test sets are merged into subj_merge data set
 
-    y_train and y_test sets are merged into y_merge data set
+     - y_train and y_test sets are merged into y_merge data set
 
 * Extracts mean and standard deviation for each measurement:
 
-    Reads measurements from “features.text” data
+     - Reads measurements from “features.text” data
 
-    Extracts only measurements for mean and standard deviation
+     - Extracts only measurements for mean and standard deviation
 
-    Revises measurement names to lower case with symbols removed
+     - Revises measurement names to lower case with symbols removed
 
 * Applies descriptive activity names to the data set:
 
-    Reads activity labels
+     - Reads activity labels
 
-    Revises activity labels to lower case with symbols removed
-      - walking
-      - walkingupstairs
-      - walkingdownstairs
-      - sitting
-      - standing
-      - laying
+     - Revises activity labels to lower case with symbols removed
+          - walking
+          - walkingupstairs
+          - walkingdownstairs
+          - sitting
+          - standing
+          - laying
 
 * Creates a new data set with 10299 rows x 68 columns containing subject ID and activity name, followed by 66 measurements:
 
-    Merges subject, activity, and measurement data into one data set
+     - Merges subject, activity, and measurement data into one data set
 
-    Creates descriptive variable names to appropriately label the data set
+     - Creates descriptive variable names to appropriately label the data set
 
-    Result saved in newData
+     - Result saved in newData
 
 * Creates a second, independent tidy data set with 180 rows x 68 columns containing the average of each measurement corresponding to each activity for each subject
 
-    First column contains subject ID’s
+     - First column contains subject ID’s
 
-    Second column contains activity names
+     - Second column contains activity names
 
-    Columns 3 through 68 contain the average for each of the 66 measurements
+     - Columns 3 through 68 contain the average for each of the 66 measurements
 
-    30 subjects x 6 activities per subject = 180 rows
+     - 30 subjects x 6 activities per subject = 180 rows
 
-    Answer saved in “tidy_data_set.txt” 
+     - Answer saved in “tidy_data_set.txt” 
