@@ -23,9 +23,9 @@ Overview:  In general, the R script called run_analysis.R does the following:
 
 Specifics:
 1. Merges the training and test sets to create one data set:
-# X_train and X_test sets are merged into X_merge data set
-# subject_train and subject_test sets are merged into subj_merge data set
-# y_train and y_test sets are merged into y_merge data set
+a. X_train and X_test sets are merged into X_merge data set
+b. subject_train and subject_test sets are merged into subj_merge data set
+c. y_train and y_test sets are merged into y_merge data set
 
 2. Extracts mean and standard deviation for each measurement:
 # Reads measurements from “features.text” data
