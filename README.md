@@ -28,7 +28,7 @@ Specifics:
 
 * Merges the training and test sets to create one data set:
 
-    X_train and X_test sets are merged into X_merge data set
+        + X_train and X_test sets are merged into X_merge data set
 
     subject_train and subject_test sets are merged into subj_merge data set
 
