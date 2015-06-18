@@ -25,17 +25,16 @@ Overview:  In general, the R script called run_analysis.R does the following:
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
 Specifics:
+
 1. Merges the training and test sets to create one data set:
 * X_train and X_test sets are merged into X_merge data set
 * subject_train and subject_test sets are merged into subj_merge data set
 * y_train and y_test sets are merged into y_merge data set
+
 2. Extracts mean and standard deviation for each measurement:
-
-a. Reads measurements from “features.text” data
-
-b. Extracts only measurements for mean and standard deviation
-
-c. Revises measurement names to lower case with symbols removed
+* Reads measurements from “features.text” data
+* Extracts only measurements for mean and standard deviation
+* Revises measurement names to lower case with symbols removed
 
 3. Applies descriptive activity names to the data set:
 
