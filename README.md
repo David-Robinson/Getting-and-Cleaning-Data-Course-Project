@@ -28,25 +28,25 @@ Specifics:
 
 * Merges the training and test sets to create one data set:
 
-- X_train and X_test sets are merged into X_merge data set
+X_train and X_test sets are merged into X_merge data set
 
-- subject_train and subject_test sets are merged into subj_merge data set
+subject_train and subject_test sets are merged into subj_merge data set
 
-- y_train and y_test sets are merged into y_merge data set
+y_train and y_test sets are merged into y_merge data set
 
-2. Extracts mean and standard deviation for each measurement:
+* Extracts mean and standard deviation for each measurement:
 
-* Reads measurements from “features.text” data
+Reads measurements from “features.text” data
 
-* Extracts only measurements for mean and standard deviation
+Extracts only measurements for mean and standard deviation
 
-* Revises measurement names to lower case with symbols removed
+Revises measurement names to lower case with symbols removed
 
-3. Applies descriptive activity names to the data set:
+* Applies descriptive activity names to the data set:
 
-a. Reads activity labels
+Reads activity labels
 
-b. Revises activity labels to lower case with symbols removed
+Revises activity labels to lower case with symbols removed
 - walking
 - walkingupstairs
 - walkingdownstairs
@@ -54,22 +54,22 @@ b. Revises activity labels to lower case with symbols removed
 - standing
 - laying
 
-4. Creates a new data set with 10299 rows x 68 columns containing subject ID and activity name, followed by 66 measurements:
+* Creates a new data set with 10299 rows x 68 columns containing subject ID and activity name, followed by 66 measurements:
 
-a. Merges subject, activity, and measurement data into one data set
+Merges subject, activity, and measurement data into one data set
 
-b. Creates descriptive variable names to appropriately label the data set
+Creates descriptive variable names to appropriately label the data set
 
-c. Result saved in newData
+Result saved in newData
 
-5. Creates a second, independent tidy data set with 180 rows x 68 columns containing the average of each measurement corresponding to each activity for each subject
+* Creates a second, independent tidy data set with 180 rows x 68 columns containing the average of each measurement corresponding to each activity for each subject
 
-a. First column contains subject ID’s
+First column contains subject ID’s
 
-b. Second column contains activity names
+Second column contains activity names
 
-c. Columns 3 through 68 contain the average for each of the 66 measurements
+Columns 3 through 68 contain the average for each of the 66 measurements
 
-d. 30 subjects x 6 activities per subject = 180 rows
+30 subjects x 6 activities per subject = 180 rows
 
-e. Answer saved in “tidy_data_set.txt” 
+Answer saved in “tidy_data_set.txt” 
