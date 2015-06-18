@@ -15,6 +15,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Overview:  In general, the R script called run_analysis.R does the following:
 
 * Merges the training and test sets to create one data set
+
 * Extracts only the measurements on the mean and standard deviation for each measurement
 
 * Uses descriptive activity names to name the activites in the data set
@@ -25,13 +26,13 @@ Overview:  In general, the R script called run_analysis.R does the following:
 
 Specifics:
 
-1. Merges the training and test sets to create one data set:
+* Merges the training and test sets to create one data set:
 
-* X_train and X_test sets are merged into X_merge data set
+- X_train and X_test sets are merged into X_merge data set
 
-* subject_train and subject_test sets are merged into subj_merge data set
+- subject_train and subject_test sets are merged into subj_merge data set
 
-* y_train and y_test sets are merged into y_merge data set
+- y_train and y_test sets are merged into y_merge data set
 
 2. Extracts mean and standard deviation for each measurement:
 
