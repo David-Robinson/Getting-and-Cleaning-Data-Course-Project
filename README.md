@@ -10,12 +10,11 @@ Here are the data for the project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-See attached project Code Book for details on data and variables.
+(See attached project Code Book for details on data and variables.)
 
 Overview:  In general, the R script called run_analysis.R does the following:
 
 * Merges the training and test sets to create one data set
-
 * Extracts only the measurements on the mean and standard deviation for each measurement
 
 * Uses descriptive activity names to name the activites in the data set
